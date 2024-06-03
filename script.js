@@ -17,7 +17,7 @@ document.querySelector("#contener").addEventListener("mousemove", throttleFuncti
   div.style.left = dit.clientX - 100 + 'px'
   div.style.top = dit.clientY - 280 + 'px'
 
-
+  
 var img = document.createElement("img")
 img.setAttribute("src", "./project_20220729_1711234-01_AqKEbRv65-removebg-preview.png")
 div.appendChild(img)
